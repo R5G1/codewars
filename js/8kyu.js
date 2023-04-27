@@ -8,5 +8,12 @@ function hero(bullets, dragons) {
 
 function doubleInteger(i) {
 
-    return i*2;
+    return i * 2;
+}
+
+function removeEveryOther(arr) {
+    for (let i = 1; i < arr.length; i++) {
+      arr.splice(i, 1);
+    }
+    return arr;
   }
