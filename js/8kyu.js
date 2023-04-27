@@ -5,3 +5,8 @@ function hero(bullets, dragons) {
     } else return true
 
 }
+
+function doubleInteger(i) {
+
+    return i*2;
+  }
